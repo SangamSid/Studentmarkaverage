@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="centercontainer">
+            <section id="text">
+                <h3 id="words">
+                    Student 
+                    Grade
+                    Policy
+                </h3>
+            </section>
+            <section id="inputbox">
+               
+<input type="number" placeholder="web programming" id="web" class="input" min="1" max="100">
+<input type="number" placeholder="maths" id="maths" class="input" onchange="" min="1" max="100">
+<input type="number" placeholder="java" id="java" class="input" onchange="" min="1" max="100">
+<input type="number" placeholder="python" id="python" class="input" onchange="" min="1" max="100">
+<button  id="btn" onclick="percentage()">Show Percentage</button>  
+
+<section id="display">
+  <pre>  Your percentage is <span id="percentage"> </span> And your 
+                    Grade is <span id="grade"></span>
+    </pre>
+</section>
+            </section>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
